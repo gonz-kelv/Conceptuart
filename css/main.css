@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'SourceSansProLight';
+	src: url('fonts/SourceSansPro-Light.otf');
+}
+
+.signup{
+text-align:right;
+background-color: #f48f00;
+padding:0px;
+margin:0px;
+}
+
+.signup a{
+text-align: right;
+line-height: 60px;
+height:60px;
+text-decoration: none;
+background-color:#dd583f;
+color: #000000;
+padding:10px;
+margin: 0 10% 0 0;
+}
+
+nav {
+background-color: #FFB347;
+width:100%;
+margin:0;
+padding:0;
+}
+
+/*header*/
+nav ul{
+background-color: #FFB347;
+list-style-type: none;
+text-align: center;
+margin:0;
+padding:0;
+}
+
+nav ul li{
+text-align: center;
+line-height: 60px;
+height:60px;
+font-size:150%;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #000000;
+	  display:block;
+	  }
+
+nav ul li a:visited {
+    display: inline;
+    background-color: #dd583f;
+    text-align: center;
+    text-decoration: none;
+	}
+	
+	nav ul li a.active {
+    display: inline;
+    background-color: #dd583f;
+    text-align: center;
+	padding:15px;
+    text-decoration: none;
+	}
+
+ nav ul li a:hover {
+    background-color: #f48f00;
+}
+
+body{
+	background-color:  #FFFFFF;
+	font-family: 'SourceSansProLight', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.welcome h1{
+	color: #000000;
+	text-align:center;
+}
+
+.profilepic{
+
+}
+
+form {
+  overflow: hidden;
+  width: 240px;
+  margin:0 auto;
+ 
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 0;
+}
+
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #000000;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #000000;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action {
+
+  border-top: 1px;
+  padding: 20px;
+}
+.account-action .btn {
+  background: #FFB347;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action label {
+  color: #000000;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+
